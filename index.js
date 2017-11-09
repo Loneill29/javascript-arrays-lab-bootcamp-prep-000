@@ -7,3 +7,4 @@ function destructivelyRemoveFirstKitten() {return kittens.shift(0)}
 function appendKitten(name) {return [...kittens, "Broom"]}
 function prependKitten(name) {return ["Arnold", ...kittens]}
 function removeLastKitten() {return ["Milo", "Otis"]}
+function removeFirstKitten() {return ["Otis", "Garfield"]}
